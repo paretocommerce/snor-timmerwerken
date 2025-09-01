@@ -3,22 +3,10 @@
 @plugin "flowbite/plugin";
 @source "../../node_modules/flowbite";
 
-body {
-  color: #222;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
-}
 
-header {
-  border-bottom: 1px solid #222;
-  margin-bottom: 1rem;
+@layer base {
+  :root {
+    --default-font-family: 'Roboto', sans-serif;
+  }
 }
-
-footer {
-  border-top: 1px solid #222;
-  margin-top: 1rem;
-}
-
 
